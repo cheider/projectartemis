@@ -1,0 +1,53 @@
+<h1 id="title"> Tyler Creek Gifts Survey Form </h1>
+
+<p id="description"> Interest and experience survey. Let us know where you found us and what you like or dislike about TCG. Please let us know if there are any other types of products you might be interested in! </p>
+
+<form id="survey-form">
+  <label id="name-label"> Name:</label>
+    <input type="text" id="name" placeholder="Name" required><br>
+  <label id="email-label"> E-mail:</label>
+    <input type="email" id="email" placeholder="E-mail" required><br>
+  <label id="number-label"> Phone Number:</label>
+    <input type="number" min="0" max="9999999999" id="number" placeholder="Phone Number"><br>
+  
+  <label for="referral-type">How did you hear about us?</label>
+  <select name="referral-type" id="dropdown">
+    <option value="friend-family">Friends and Family</option>
+    <option value="facebook">Facebook</option>
+    <option value="google-search">Google or other search engine</option>
+    <option value="other">Other</option>
+  </select><br>
+  
+  <label for="date">Enter date of last purchase if any:</label>
+  <input type="date" id="date" name="date"><br><br>
+  
+<label fo="bought-before">If you have purchased candles before, please select the scents below</label><br>
+  <input type="checkbox" id="peppercorn" name="peppercorn" value="peppercorn">
+  <label for="peppercorn">Peppercorn and Mandarin</label><br>
+  
+  <input type="checkbox" id="apple" name="apple" value="apple">
+  <label for="apple">Harvest Apple and Pear</label><br>
+  
+  <input type="checkbox" id="brownie" name="brownie" value="brownoe">
+  <label for="brownie">Chocolate Fudge Brownie</label><br><br>
+ 
+  
+  <label for="contact-method"> Contact method for TCG Updates: </label><br>
+    <input type="radio" value="contact-email-phone" name="contact-method">
+    <label>E-mail and Text</label><br>
+    
+    <input type="radio" value="contact-email" name="contact-method">
+    <label>Email</label><br>
+    
+    <input type="radio" value="contact-text" name="contact-method">
+    <label>Text<label><br>
+      
+    <input type="radio" value="contact-none" name="contact-method" checked>
+    <label>Please do not contact me</label><br><br>
+
+<label> Additional comments:</label><br>
+<textarea id="textarea" rows="4" cols="50" placeholder="Please add any additional comments here on what we could do better, or just say hi, we like that too! :D"></textarea>
+
+<button type="submit" id="submit">SUBMIT</button>
+
+</form>
