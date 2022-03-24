@@ -5,7 +5,7 @@ body{
     margin: 50px auto 100px auto;
     padding: 10px;
     background: rgba(148, 148, 148, 0.9);
-    border-radius: 30px;`
+    border-radius: 30px;
     max-width: 80%;
   }
   #survey-form{
@@ -18,4 +18,4 @@ body{
   }
   #title{
     text-align: center;
-  }
+  }             
