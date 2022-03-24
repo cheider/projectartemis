@@ -1,8 +1,11 @@
-#form-box{
+body{
+    background-image: url("https://images.unsplash.com/photo-1568051417544-7be7671f4c2a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDV8fGNhbmRsZXN8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+  }
+  #form-box{
     margin: 50px auto 100px auto;
     padding: 10px;
-    background: gray;
-    border-radius: 30px;
+    background: rgba(148, 148, 148, 0.9);
+    border-radius: 30px;`
     max-width: 80%;
   }
   #survey-form{
