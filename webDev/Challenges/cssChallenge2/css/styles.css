@@ -1,0 +1,17 @@
+body {
+    background-color: #EEEEEE;
+    font-family: Segoe UI;
+}
+hr {
+    border-top-style: dotted;
+    border-width: 0px;
+    border-top-width: 10px;
+    border-color: #00ADB5;
+    width: 10%;
+}
+h1 {
+    color: #00ADB5;
+}
+h3 {
+    color: #00ADB5;
+}
