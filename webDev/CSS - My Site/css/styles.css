@@ -1,23 +1,49 @@
-/* Color Pallete: https://colorhunt.co/palette/fcf8e8d4e2d4ecb390df7861 */
+/* Color Pallete: https://colorhunt.co/palette/ffb6b9fae3d9bbded68ac6d1 */
 body{
     margin: 0;
     text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 200%;
 }
 h1{
-    width: 10%;
-    margin: 0 auto 0 auto;
+    font-size: 5.6rem;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
 }
 /**************** Class Selectors *******************/
+.profilePicture{
+    width: 200px;
+    border-radius: 50%;
+}
 .top-container{
-    background-color: #FCF8E8;
+    background-color: #8AC6D1;
+    position: relative;
+    padding-top: 100px;
 }
 .middle-container{
-    background: red;
-    width: 200px;
-    height: 200px;
+    
 }
 .bottom-container{
-    background-color: blue;
-    width: 200px;
-    height: 200px;
+
+}
+.pro {
+    text-decoration: underline;
+}
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 30
 }
