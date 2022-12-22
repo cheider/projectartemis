@@ -1,5 +1,6 @@
 /* Color Pallete: https://colorhunt.co/palette/2c3333395b64a5c9cae7f6f2 */
 body{
+    color: #40514E;
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
@@ -15,8 +16,8 @@ h2 {
     font-size: 2.5rem;
     color: #66BFBF;
     font-weight: normal;
+    padding-bottom: 10px;
 }
-
 h3 {
     font-family: 'Montserrat', sans-serif;
     color: #11999E;
@@ -30,7 +31,10 @@ hr {
     border-top-width: 10px;
     border-color: #11999E;
     width: 10%;
-    margin-bottom: 50px;
+    margin: 100px auto;
+}
+p{
+    line-height: 2;
 }
 /**************** Class Selectors *******************/
 .profilePicture{
@@ -43,12 +47,14 @@ hr {
     padding-top: 100px;
 }
 .profile{
-    width: 50%;
     margin: 100px auto 100px auto;
-    line-height: 2;
 }
 .pro {
     text-decoration: underline;
+}
+.intro {
+    width: 30%;
+    margin: auto;
 }
 .top-cloud {
     position: absolute;
@@ -64,7 +70,6 @@ hr {
     width: 50%;
     margin: 100px auto 100px auto;
     text-align: left;
-    line-height: 2;
 }
 .build-img{
     width: 25%;
@@ -80,7 +85,7 @@ hr {
     margin-bottom: 100px;
 }
 .contact-me {
-    line-height: 2;
+    line-height: 3;
 }
 .bottom-container {
     background-color: #11999E;
@@ -116,7 +121,8 @@ hr {
     color: #054f52;
     margin-right: 25px;
     margin-left: 25px;
+    text-decoration: none;
   }
   .tm{
-    color: #EAF6F6
+    color: #EAF6FF;
   }
